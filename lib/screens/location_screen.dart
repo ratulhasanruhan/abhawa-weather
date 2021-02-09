@@ -40,7 +40,7 @@ class _LocationScreenState extends State<LocationScreen> {
         cityname = weatherData['name'];
         var condition = weatherData['weather'][0]['id'];
         //
-        double temp = weatherData['main']['temp'];
+        var temp = weatherData['main']['temp'];
         temprature = temp.toInt();
         weatherIcon = weatherModel.getWeatherIcon(condition);
         weatherMessage = weatherModel.getMessage(temprature);
@@ -129,7 +129,7 @@ class _LocationScreenState extends State<LocationScreen> {
                           ),
                         ),
                         SizedBox(
-                          width: 70,
+                          width: 50,
                         ),
                         Text(
                           weatherIcon,
