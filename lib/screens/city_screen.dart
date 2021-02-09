@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:clima/utilities/constants.dart';
 import 'loading_screen.dart';
@@ -59,6 +58,7 @@ class _CityScreenState extends State<CityScreen> {
                 Container(
                   padding: EdgeInsets.all(25.0),
                   child: TextField(
+                    autofocus: true,
                     style: TextStyle(
                       color: Colors.black,
                     ),
@@ -99,11 +99,19 @@ class _CityScreenState extends State<CityScreen> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: cityCard(cityname:'Dhaka',),
+                      child: cityCard(
+                        cityname:'Dhaka',
+                        wicon: '🌤',
+                        temparature: '35',
+                      ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: cityCard(cityname:'London'),
+                      child: cityCard(
+                        cityname:'London',
+                        wicon: '🌞',
+                        temparature: '2',
+                      ),
                     ),
                   ],
                 ),
@@ -112,11 +120,19 @@ class _CityScreenState extends State<CityScreen> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: cityCard(cityname:'New York'),
+                      child: cityCard(
+                        cityname:'New York',
+                        wicon: '🌩',
+                        temparature: '12',
+                      ),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
-                      child: cityCard(cityname:'Shariatpur'),
+                      child: cityCard(
+                        cityname:'Shariatpur',
+                        wicon: '☔',
+                        temparature: '30',
+                      ),
                     ),
                   ],
                 )
@@ -130,8 +146,11 @@ class _CityScreenState extends State<CityScreen> {
 }
 
 class cityCard extends StatelessWidget {
-  cityCard({this.cityname});
   String cityname;
+  String wicon;
+  String temparature;
+
+  cityCard({this.cityname,this.wicon,this.temparature});
 
   @override
   Widget build(BuildContext context) {
@@ -152,13 +171,13 @@ class cityCard extends StatelessWidget {
             ),),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Text('30°C',
+              child: Text('$temparature°C',
                 style: TextStyle(
                   color: kblue,
                   fontSize: 30
                 ),),
             ),
-            Text('🌤',
+            Text(wicon,
               style: TextStyle(
                 fontSize: 30,
               ),),
