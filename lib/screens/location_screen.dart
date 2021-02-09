@@ -1,8 +1,4 @@
 import 'dart:core';
-import 'dart:core';
-import 'dart:core';
-import 'dart:core';
-
 import 'package:clima/screens/city_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

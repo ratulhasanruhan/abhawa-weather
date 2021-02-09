@@ -14,6 +14,7 @@ dependencies:
   geolocator: ^6.1.14
   http: ^0.12.2
   intl: ^0.16.1
+  carousel_pro: ^1.0.0
 
 dev_dependencies:
   flutter_test:
