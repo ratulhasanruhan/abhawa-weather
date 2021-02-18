@@ -1,4 +1,5 @@
 import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:clima/utilities/constants.dart';
 import 'loading_screen.dart';
@@ -13,7 +14,32 @@ class CityScreen extends StatefulWidget {
 }
 
 class _CityScreenState extends State<CityScreen> {
+  WeatherModel weatherModel = WeatherModel();
   String textValue;
+  double result;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    getData();
+  }
+
+  void getData() async{
+    var url = 'http://api.openweathermap.org/data/2.5/weather?q=London&appid=e396b7f9fdb249b7b257e9c102c7e280&units=metric';
+    http.Response response = await http.get(url);
+
+    if(response.statusCode == 200){
+      String data = await response.body;
+      setState(() {
+        result = jsonDecode(data)['main']['temp'];
+      });
+    }
+    else{
+      print(response.statusCode);
+    }
+
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +67,7 @@ class _CityScreenState extends State<CityScreen> {
           child: SingleChildScrollView(
             child: Column(
               children: <Widget>[
-                Text('Search a City',
+                Text('Search a city',
                 style: TextStyle(
                   fontSize: 35,
                   fontWeight: FontWeight.bold,
@@ -110,7 +136,7 @@ class _CityScreenState extends State<CityScreen> {
                       child: cityCard(
                         cityname:'London',
                         wicon: '🌞',
-                        temparature: '2',
+                        temparature: result.toStringAsFixed(1),
                       ),
                     ),
                   ],
