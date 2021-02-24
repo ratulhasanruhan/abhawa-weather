@@ -10,7 +10,7 @@ MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\ratu
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\277c5ac90097bfd87e498aa7aa7142e1\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\cb28eb37786c46aa315fbb0bc9e79ad7\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\f1af6724f4620915405752d62143122a\activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\e7dbd70914629c845196c3655d3bfc05\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -59,8 +59,8 @@ MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\277c5ac90097bfd87e498aa7aa7142e1\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.1.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\b1e5b3e7ff90977513d02b308ca82682\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -117,8 +117,8 @@ MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\277c5ac90097bfd87e498aa7aa7142e1\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\1bb993f423a231c4153b82518fb742b5\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\cb28eb37786c46aa315fbb0bc9e79ad7\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\cb28eb37786c46aa315fbb0bc9e79ad7\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\f1af6724f4620915405752d62143122a\activity-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -166,8 +166,8 @@ ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\ratul\.gr
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

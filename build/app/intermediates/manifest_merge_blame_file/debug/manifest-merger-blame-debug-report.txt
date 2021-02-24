@@ -88,11 +88,11 @@
 58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\503246db64dcbb120c121745b36c75fd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 59
 60        <meta-data
-60-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+60-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 61            android:name="com.google.android.gms.version"
-61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 62            android:value="@integer/google_play_services_version" />
-62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\49f955eca58a67621e9a7bfd6de757da\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ratul\.gradle\caches\transforms-2\files-2.1\d5515ce6341563ab0d0bd6b02c88c94b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 63    </application>
 64
 65</manifest>

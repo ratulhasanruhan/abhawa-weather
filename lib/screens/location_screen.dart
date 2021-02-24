@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:core';
 import 'package:clima/screens/city_screen.dart';
 import 'package:flutter/cupertino.dart';
@@ -6,6 +7,7 @@ import 'package:clima/utilities/constants.dart';
 import 'package:clima/services/weather.dart';
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
+import 'package:http/http.dart' as http;
 import 'dart:core';
 
 class LocationScreen extends StatefulWidget {
@@ -22,11 +24,23 @@ class _LocationScreenState extends State<LocationScreen> {
   String cityname;
   String weatherIcon;
   String weatherMessage;
+  var news;
 
   @override
   void initState() {
     super.initState();
     updateUI(widget.locationWeather);
+    newsData();
+  }
+
+  Future newsData() async{
+    var url = 'https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=lVGVZHfvye7fF2m4UZq7f85nkJgX1ncb';
+    var response = await http.get(url);
+
+    setState(() {
+      var decode = json.decode(response.body);
+      news = decode['results'];
+    });
   }
 
   void updateUI(dynamic weatherData) {
@@ -160,11 +174,54 @@ class _LocationScreenState extends State<LocationScreen> {
               ),
             ),
           ),
+          Padding(
+            padding: const EdgeInsets.only(left: 20, right: 20),
+            child: Align(
+              alignment: Alignment.centerLeft,
+              child: Text('Top News :',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 20,
+                fontWeight: FontWeight.w900
+              ),),
+            ),
+          ),
+          news == null ? Center(child: CircularProgressIndicator(),) :
+          Expanded(
+            child: ListView.builder(
+              itemCount: news.toString().length == null ? 0: news.toString().length,
+              itemBuilder: (BuildContext context, int index){
+                return Padding(
+                  padding: const EdgeInsets.only(left: 20, right: 20, top: 10),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.all(Radius.circular(10)),
+                    child: ListTile(
+                      tileColor: Colors.white,
+                      title: Text(news[index]['title']),
+                      leading: Image.network(news[index]['media'] == null ? 'https://image.shutterstock.com/image-vector/vector-illustration-handshake-concept-link-260nw-1538733581.jpg': news[index]['media'][0]['media-metadata'][0]['url'],
+                      fit: BoxFit.cover,),
+                      isThreeLine: true,
+                      subtitle: Text(news[index]['abstract']),
+                    ),
+                  ),
+                );
+              }
+            ),
+          ),
         ],
       ),
     );
   }
 }
+
+
+
+
+
+
+
+
+
 
 //Another Design
 /*Container(
