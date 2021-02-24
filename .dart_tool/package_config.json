@@ -182,13 +182,19 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "webview_flutter",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-1.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "clima",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2021-02-24T07:17:14.410459Z",
+  "generated": "2021-02-24T15:59:25.836853Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }

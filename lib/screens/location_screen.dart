@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:core';
 import 'package:clima/screens/city_screen.dart';
+import 'package:clima/screens/news_details.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:clima/utilities/constants.dart';
@@ -202,6 +203,9 @@ class _LocationScreenState extends State<LocationScreen> {
                       fit: BoxFit.cover,),
                       isThreeLine: true,
                       subtitle: Text(news[index]['abstract']),
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => HomePage(news[index])));
+                      },
                     ),
                   ),
                 );
