@@ -190,7 +190,7 @@ class _LocationScreenState extends State<LocationScreen> {
           news == null ? Center(child: CircularProgressIndicator(),) :
           Expanded(
             child: ListView.builder(
-              itemCount: news.toString().length == null ? 0: news.toString().length,
+              itemCount: news.length == null ? 0: news.length,
               itemBuilder: (BuildContext context, int index){
                 return Padding(
                   padding: const EdgeInsets.only(left: 20, right: 20, top: 10),
@@ -199,8 +199,9 @@ class _LocationScreenState extends State<LocationScreen> {
                     child: ListTile(
                       tileColor: Colors.white,
                       title: Text(news[index]['title']),
-                      leading: Image.network(news[index]['media'] == null ? 'https://image.shutterstock.com/image-vector/vector-illustration-handshake-concept-link-260nw-1538733581.jpg': news[index]['media'][0]['media-metadata'][0]['url'],
-                      fit: BoxFit.cover,),
+                      leading: Image.network(news[index]['media'][0] == null ?
+                       'https://image.shutterstock.com/image-vector/vector-illustration-handshake-concept-link-260nw-1538733581.jpg' : news[index]['media'][0]['media-metadata'][0]['url'],
+                        fit: BoxFit.cover,),
                       isThreeLine: true,
                       subtitle: Text(news[index]['abstract']),
                       onTap: (){
